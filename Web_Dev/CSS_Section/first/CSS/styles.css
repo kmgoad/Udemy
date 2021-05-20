@@ -14,7 +14,12 @@ h1 {
 }
 
 h2 {
-    font-size: 250%;
+    font-size: 200%;
+}
+
+.header2 {
+    text-decoration: underline;
+    font-size: 150%;
 }
 
 .contact-info {
@@ -43,20 +48,23 @@ h2 {
     text-align: left;
     left: 15%;
     bottom: 30%;
+    overflow:auto;
 }
 
 .intro-name {
     margin-bottom:0;
-    
+    overflow:auto;
 }
 
 .intro-job_title {
     margin: 0;
+    overflow:auto;
 }
 
 .intro-paragraph {
     margin: 10;
     width: 40%;
+    overflow:auto;
 }
 
 .contact-icon {
