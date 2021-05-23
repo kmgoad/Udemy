@@ -76,7 +76,7 @@ $( "*", document.querySelector(".col2") ).click(function( event ) {
     var newE2 = document.createElement(domElement.innerHTML);
     newE1.textContent = "<"+newE1.nodeName+">"
     document.querySelector(".structure-container").querySelector(".structure-selected").appendChild(newE1);
-    newE2.textContent = "new Element";
+    newE2.textContent = "<"+newE1.nodeName+">";
     document.querySelector(".document-container").querySelector(".structure-selected").appendChild(newE2);
     buildStructure();
     clearSelection();
