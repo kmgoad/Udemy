@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Builder</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine|Merriweather|Sacramento">
+    <!-- favicon.cc to create icon -->
+    <link rel="icon" href="favicon.ico">
+</head>
+<body>
+
+
+    <div class="document-container w-resizable-l" id="">
+        <h1>Document</h1>
+        <div>
+            <ol>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+    <div class="w-resizer"></div>
+
+    <div class="developer-container w-resizable-r" id="">
+        <div class="structure-container v-resizable-t" id="">
+            <h1>Structure</h1>
+            <nav>
+                <button class="add-btn">Add</button>
+                <button class="">Delete</button>
+            </nav>
+            <div class="add-dropdown-menu">
+                <div class="col1">
+                    <p>h1</p>
+                    <p>h2</p>
+                    <p>h3</p>
+                    <p>h4</p>
+                    <p>h5</p>
+                    <p>h6</p>
+                    <p>div</p>
+                    <p>p</p>
+                </div>
+                <div class="col2">
+                    <p>button</p>
+                    <p>a</p>
+                    <p>img</p>
+                    <p>table</p>
+                    <p>tbody</p>
+                    <p>th</p>
+                    <p>tr</p>
+                    <p>td</p>
+                </div>
+            </div>
+
+            <div class="structure-div">
+                <p></p>
+            </div>
+        </div>
+        <div class="v-resizer"></div>
+        <div class="editor-container v-resizable-b" id="">
+            <h1>Editor</h1>
+        </div>
+    </div>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="JS/resizer.js" charset="utf-8"></script>
+    <script src="JS/elementInjector.js" charset="utf-8"></script>
+</body>
+
+</html>

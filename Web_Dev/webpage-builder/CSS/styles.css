@@ -1,0 +1,99 @@
+.document-container {
+    position: absolute;
+    left:0;
+    height: 100%;
+    width: 69.9%;
+    overflow: auto;
+}
+
+.w-resizer {
+    position: absolute;
+    right: 29.9%;
+    height: 100%;
+    width: .15%;
+    background-color: blue;
+    cursor: col-resize;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.developer-container {
+    background-color: rgb(30, 30, 30);
+    color: rgb(255, 255, 255);
+    position: fixed;
+    right:0;
+    height: 100%;
+    width: 29.9%;
+    /* border-left: solid 10px rgb(0, 250, 250); */
+}
+
+.structure-container {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    overflow: auto;
+    /* border-bottom: solid rgb(210, 210, 210); */
+}
+
+.v-resizer {
+    position: relative;
+    top: 0;
+    height: .15%;
+    width: 100%;
+    background-color: blue;
+    cursor: row-resize;
+    z-index: 1;
+}
+
+.editor-container {
+    position: relative;
+    height: 50%;
+    width: 100%;
+    overflow: auto;
+}
+
+.structure-selected {
+    color: cyan;
+    background-color: rgb(30,30,30);
+}
+
+.col1 {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    background-color: white;
+    color: black; 
+}
+
+.col2 {
+    position: absolute;
+    width: 40%;
+    height: 100%;
+    right: 20%;
+    background-color: white;
+    color: black; 
+}
+
+.col1 * {
+    text-align: center;
+    border: solid 1px;
+    margin: 1px;
+}
+
+.col2 * {
+    text-align: center;
+    border: solid 1px;
+    margin: 1px;
+}
+
+.add-dropdown-menu {
+    position: absolute;
+    display: none;
+    right: 30%;
+    background-color: white;
+    color: black;
+    width: 40%;
+    height: 70%;
+}
+
